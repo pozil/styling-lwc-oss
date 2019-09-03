@@ -1,0 +1,12 @@
+/* This loads the original Bulma. LWC compiler will crash with a "Invalid definition of custom property "--columnGap"" message (unsupported CSS variables).
+@import '../bulma/bulma-full.css';
+*/
+
+
+/* This loads Bulma without custom CSS variables. LWC compiler will crash with "RangeError: Maximum call stack size exceeded"
+@import '../bulma/bulma-no-vars.css';
+*/
+
+/* This loads subsets of Bulma built from SASS. This works but requires manual config to generate CSS from SASS. */
+@import '../bulma/bulma-navbar.css';
+@import '../bulma/bulma-button.css';
