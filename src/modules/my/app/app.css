@@ -2,7 +2,6 @@
 @import '../bulma/bulma-full.css';
 */
 
-
 /* This loads Bulma without custom CSS variables. LWC compiler will crash with "RangeError: Maximum call stack size exceeded"
 @import '../bulma/bulma-no-vars.css';
 */
