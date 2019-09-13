@@ -22,7 +22,7 @@
     "keywords": [
         "lwc"
     ],
-    "license": "MIT",
+    "license": "CC0 1.0 Universal",
     "lint-staged": {
         "**/*.{css,html,js,json,md,ts,yaml,yml}": [
             "prettier --write"
