@@ -4,8 +4,8 @@ logs
 *-debug.log
 *-error.log
 
-# Standard lib folder
-/lib
+# Dist dependencies
+/src/resources/dependencies/
 
 # Standard dist folder
 /dist
